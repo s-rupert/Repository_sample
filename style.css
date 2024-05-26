@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero {
+    position: absolute;
+    color: white;
+}
+
+.menus {
+    width: 100%;
+}
+
+.logo {
+    font-family: Inter;
+    font-size: 30.4px;
+    font-weight: 900;
+    line-height: 36.79px;
+    margin-left: 20px;
+    line-height: 80px;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 35px;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+}
+
+ul {
+    position: fixed;
+    text-align: center;
+    background-color: rgb(151, 142, 204);
+    width: 50%;
+    float: right;
+    height: 100vh;
+    top: 0;
+    line-height: 50px;
+    left: 50%;
+}
+
+.xmark {
+    color: white;
+    margin-left: -80%;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li a.active,
+a:hover {
+    color: blueviolet;
+}
+
+#check:checked~ul {
+    left: 100%;
+}
+
+.middle {
+    margin-top: 215px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.rect {
+    height: 10px;
+    width: 70px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.middle h1 {
+    font-family: "Libre Caslon Display", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61.8px;
+}
+
+.middle p {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.33px;
+
+}
+
+.lmore {
+    display: inline-block;
+    padding: 5px 25px;
+    margin-top: 20px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.33px;
+
+}
+
+.bg {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    width: 1024px;
+    /* overflow: hidden; */
+}
+
+.bg img {
+    width: 50%;
+    height: 1024px;
+    object-fit: cover;
+}
+
+.article {
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.article h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    margin: 50px 0;
+
+
+}
+
+.art {
+    margin-bottom: 30px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 5px;
+}
+
+.art img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.artd {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.artd p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.73px;
+    text-align: left;
+    color: #B7B7B7;
+    margin: 20px 0;
+}
+
+.artd h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+
+.artd a {
+    display: block;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    color: #D9852C;
+    padding: 30px 0;
+    text-align: end;
+}
+
+@media (max-width:744px){
+
+}
